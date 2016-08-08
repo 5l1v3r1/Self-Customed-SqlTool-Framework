@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <test>
+        <title>星号,用于union连接</title>
+        <stype></stype>
+        <level></level>
+        <risk></risk>
+        <clause></clause>
+        <where></where>
+        <vector> union all select *</vector>
+        <request>
+            <payload></payload>
+        </request>
+        <response>
+            <comparison></comparison>
+        </response>
+        <details>
+            <dbms></dbms>
+            <dbms_version></dbms_version>
+            <os></os>
+        </details>
+    </test>
+    <test>
+        <title>星号+count,用于()里</title>
+        <stype></stype>
+        <level></level>
+        <risk></risk>
+        <clause></clause>
+        <where></where>
+        <vector> union all select count(*)</vector>
+        <request>
+            <payload></payload>
+        </request>
+        <response>
+            <comparison></comparison>
+        </response>
+        <details>
+            <dbms></dbms>
+            <dbms_version></dbms_version>
+            <os></os>
+        </details>
+    </test>
+    <test>
+        <title>用于对等猜测的payload</title>
+        <stype></stype>
+        <level></level>
+        <risk></risk>
+        <clause></clause>
+        <where></where>
+        <vector> union all select [SEQINT]</vector>
+        <request>
+            <payload></payload>
+        </request>
+        <response>
+            <comparison></comparison>
+        </response>
+        <details>
+            <dbms></dbms>
+            <dbms_version></dbms_version>
+            <os></os>
+        </details>
+    </test>
+</root>

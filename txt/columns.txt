@@ -1,0 +1,17 @@
+#用户名
+user
+username
+login
+User
+Username
+name
+Name
+
+#密码
+password
+Password
+pass
+
+
+#其他
+id

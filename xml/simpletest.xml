@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <test>
+        <title>Int Logic True</title>
+        <stype></stype>
+        <level></level>
+        <risk></risk>
+        <clause></clause>
+        <where></where>
+        <vector> and [RANDNUM]=[RANDNUM]</vector>
+        <request>
+            <payload></payload>
+        </request>
+        <response>
+            <comparison></comparison>
+        </response>
+        <details>
+            <dbms></dbms>
+            <dbms_version></dbms_version>
+            <os></os>
+        </details>
+    </test>
+    <test>
+        <title>Int Logic False</title>
+        <stype></stype>
+        <level></level>
+        <risk></risk>
+        <clause></clause>
+        <where></where>
+        <vector> and [RANDNUM]=[RANDNUM1]</vector>
+        <request>
+            <payload></payload>
+        </request>
+        <response>
+            <comparison></comparison>
+        </response>
+        <details>
+            <dbms></dbms>
+            <dbms_version></dbms_version>
+            <os></os>
+        </details>
+    </test>
+    <test>
+        <title>Char?</title>
+        <stype></stype>
+        <level></level>
+        <risk></risk>
+        <clause></clause>
+        <where></where>
+        <vector>'</vector>
+        <request>
+            <payload></payload>
+        </request>
+        <response>
+            <comparison></comparison>
+        </response>
+        <details>
+            <dbms></dbms>
+            <dbms_version></dbms_version>
+            <os></os>
+        </details>
+    </test>
+    <test>
+        <title>Char Logic True</title>
+        <stype></stype>
+        <level></level>
+        <risk></risk>
+        <clause></clause>
+        <where></where>
+        <vector>' and '[RANDNUM]'='[RANDNUM]</vector>
+        <request>
+            <payload></payload>
+        </request>
+        <response>
+            <comparison></comparison>
+        </response>
+        <details>
+            <dbms></dbms>
+            <dbms_version></dbms_version>
+            <os></os>
+        </details>
+    </test>
+    <test>
+        <title>Char Logic False</title>
+        <stype></stype>
+        <level></level>
+        <risk></risk>
+        <clause></clause>
+        <where></where>
+        <vector>' and '[RANDNUM]'='[RANDNUM1]</vector>
+        <request>
+            <payload></payload>
+        </request>
+        <response>
+            <comparison></comparison>
+        </response>
+        <details>
+            <dbms></dbms>
+            <dbms_version></dbms_version>
+            <os></os>
+        </details>
+    </test>
+    <test>
+        <title>Char2?</title>
+        <stype></stype>
+        <level></level>
+        <risk></risk>
+        <clause></clause>
+        <where></where>
+        <vector>"</vector>
+        <request>
+            <payload></payload>
+        </request>
+        <response>
+            <comparison></comparison>
+        </response>
+        <details>
+            <dbms></dbms>
+            <dbms_version></dbms_version>
+            <os></os>
+        </details>
+    </test>
+</root>

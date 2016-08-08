@@ -1,0 +1,8 @@
+本文件的文件名很关键，不可随便更改
+MS字符:由lib.py里的HSHandle()来处理
+[RANDNUM]在同一个字符串payload里相等，但不等于[RANDNUM1]
+[RANDNUM1]在同一个字符串payload里相等，但不等于[RANDNUM]
+[INFERENCE]
+
+#一个字符串里最多一个下面的SEQ
+[SEQINT]将会将该字符串生成10个新的字符串，每个字符串该位置依次替换为0、0,1、0,1,2......
